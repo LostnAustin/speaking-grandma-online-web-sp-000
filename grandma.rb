@@ -12,6 +12,7 @@ if    string.upcase != "Hi!"
   end
 if   string.upcase == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
+  end
 else    string.upcase == "WHAT?"
      return "NO, NOT SINCE 1938!"
    end end
