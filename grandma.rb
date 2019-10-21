@@ -5,20 +5,19 @@ if   string.upcase == ("I LOVE YOU GRANDMA!")
     return "I LOVE YOU TOO PUMPKIN!"
   end
 
-if  string.upcase == "WHAT DID YOU EAT TODAY?"
-    return "NO, NOT SINCE 1938!"
-  end
-if  string.upcase == "WHAT DID YOU EAT TODAY?"
-     return "NO, NOT SINCE 1938!"
-   end
  if  string.upcase != "Hi Nana, how are you?"
        return "HUH?! SPEAK UP, SONNY!"
-
-   else    string.upcase != "Hi!"
+   else   string.upcase != "Hi!"
        return "HUH?! SPEAK UP, SONNY!"
      end
  end
 
+ if  string.upcase == "WHAT DID YOU EAT TODAY?"
+     return "NO, NOT SINCE 1938!"
+   end
+ if  string.upcase == "WHAT DID YOU EAT TODAY?"
+      return "NO, NOT SINCE 1938!"
+    end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
