@@ -7,7 +7,7 @@ if   string.upcase == ("I LOVE YOU GRANDMA!")
 if  string.upcase != "Hi Nana, how are you?"
     return "HUH?! SPEAK UP, SONNY!"
   end
-if    string.upcase == "Hi!"
+if    string.upcase != "Hi!"
     return "HUH?! SPEAK UP, SONNY!"
   end
 if   string.upcase == "WHAT DID YOU EAT TODAY?"
