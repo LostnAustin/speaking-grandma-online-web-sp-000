@@ -11,10 +11,10 @@ if   string.upcase == "WHAT DID YOU EAT TODAY?"
 if   string.upcase == "WHAT DID YOU EAT TODAY?"
      return "NO, NOT SINCE 1938!"
    end
- elsif  string.upcase != "Hi Nana, how are you?"
+ if  string.upcase != "Hi Nana, how are you?"
        return "HUH?! SPEAK UP, SONNY!"
      end
-   else    string.upcase != "Hi!"
+   if    string.upcase != "Hi!"
        return "HUH?! SPEAK UP, SONNY!"
      end
  end
