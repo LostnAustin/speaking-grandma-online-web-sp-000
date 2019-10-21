@@ -3,14 +3,14 @@
 def speak_to_grandma(string)
    string.upcase == ("I LOVE YOU GRANDMA!")
     return "I LOVE YOU TOO PUMPKIN!"
-    string.upcase == "Hi Nana, how are you?"
+  if string.upcase == "Hi Nana, how are you?"
     return "HUH? SPEAK UP, SONNY!"
     !!string.upcase == "Hi!"
-    puts "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
     !!string.upcase == "WHAT DID YOU EAT TODAY?"
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
     !!string.upcase == "WHAT?"
-     puts "NO, NOT SINCE 1938!"
+     return "NO, NOT SINCE 1938!"
     end
 
 
