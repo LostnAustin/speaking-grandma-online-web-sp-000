@@ -3,11 +3,14 @@
 def speak_to_grandma(string)
 if   string.upcase == ("I LOVE YOU GRANDMA!")
     return "I LOVE YOU TOO PUMPKIN!"
-else   string.upcase == "Hi Nana, how are you?"
+  end
+if  string.upcase == "Hi Nana, how are you?"
     return "HUH?! SPEAK UP, SONNY!"
-else    string.upcase == "Hi!"
+  end
+if    string.upcase == "Hi!"
     return "HUH?! SPEAK UP, SONNY!"
-else    string.upcase == "WHAT DID YOU EAT TODAY?"
+  end
+if   string.upcase == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
 else    string.upcase == "WHAT?"
      return "NO, NOT SINCE 1938!"
