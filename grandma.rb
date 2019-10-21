@@ -1,15 +1,15 @@
 # Write a speak_to_grandma method.
 
 def speak_to_grandma(string)
-  !!if string == "I LOVE YOU GRANDMA!"
+  if string == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
-  !!else string == "Hi Nana, how are you?"
+  else string == "Hi Nana, how are you?"
     puts "HUH? SPEAK UP, SONNY!"
-  !!else string == "Hi!"
+  else string == "Hi!"
     puts "HUH?! SPEAK UP, SONNY!"
-  !!else string == "WHAT DID YOU EAT TODAY?"
+  else string == "WHAT DID YOU EAT TODAY?"
     puts "NO, NOT SINCE 1938!"
-  !!else string == "WHAT?"
+  else string == "WHAT?"
       puts "NO, NOT SINCE 1938!"
     end
   end
