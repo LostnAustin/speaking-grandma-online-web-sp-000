@@ -1,18 +1,18 @@
 # Write a speak_to_grandma method.
 
 def speak_to_grandma(string)
-   string.upcase == ("I LOVE YOU GRANDMA!")
+if   string.upcase == ("I LOVE YOU GRANDMA!")
     return "I LOVE YOU TOO PUMPKIN!"
-   string.upcase == "Hi Nana, how are you?"
+else   string.upcase == "Hi Nana, how are you?"
     return "HUH?! SPEAK UP, SONNY!"
-    string.upcase == "Hi!"
+else    string.upcase == "Hi!"
     return "HUH?! SPEAK UP, SONNY!"
-    string.upcase == "WHAT DID YOU EAT TODAY?"
+else    string.upcase == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
-    string.upcase == "WHAT?"
+else    string.upcase == "WHAT?"
      return "NO, NOT SINCE 1938!"
     end
-
+end
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
