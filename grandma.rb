@@ -13,7 +13,7 @@ if    string.upcase != "Hi!"
 if   string.upcase == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
   end
-if   string.upcase == "WHAT?"
+if   string.upcase == "WHAT DID YOU EAT TODAY?"
      return "NO, NOT SINCE 1938!"
    end end
 
