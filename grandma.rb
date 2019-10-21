@@ -5,11 +5,11 @@ def speak_to_grandma(string)
     return "I LOVE YOU TOO PUMPKIN!"
    string.upcase == "Hi Nana, how are you?"
     return "HUH?! SPEAK UP, SONNY!"
-    !!string.upcase == "Hi!"
+    string.upcase == "Hi!"
     return "HUH?! SPEAK UP, SONNY!"
-    !!string.upcase == "WHAT DID YOU EAT TODAY?"
+    string.upcase == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
-    !!string.upcase == "WHAT?"
+    string.upcase == "WHAT?"
      return "NO, NOT SINCE 1938!"
     end
 
