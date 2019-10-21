@@ -7,14 +7,14 @@ if   string.upcase == ("I LOVE YOU GRANDMA!")
 
 if   string.upcase == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
-  
-else   string.upcase == "WHAT DID YOU EAT TODAY?"
+  end
+if  string.upcase == "WHAT DID YOU EAT TODAY?"
      return "NO, NOT SINCE 1938!"
    end
  if  string.upcase != "Hi Nana, how are you?"
        return "HUH?! SPEAK UP, SONNY!"
-     end
-   if    string.upcase != "Hi!"
+
+   else    string.upcase != "Hi!"
        return "HUH?! SPEAK UP, SONNY!"
      end
  end
