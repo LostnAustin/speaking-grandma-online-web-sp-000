@@ -12,7 +12,6 @@ else    string.upcase == "WHAT DID YOU EAT TODAY?"
 else    string.upcase == "WHAT?"
      return "NO, NOT SINCE 1938!"
    end end end
-end
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
